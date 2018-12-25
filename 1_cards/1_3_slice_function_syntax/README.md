@@ -28,5 +28,5 @@ func deal(d deck, handSize int) (deck, deck) {
 * Retrieving multiple return data
     - Compiler will still determine the data type of the variables
 ```go
-hand, remainingCards := deal(cards, 5);
+hand, remainingCards := deal(cards, 5)
 ```
