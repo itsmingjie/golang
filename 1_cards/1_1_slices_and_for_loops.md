@@ -21,7 +21,7 @@ cards = append(cards, "Six of Spades")
 - `append` does NOT modify the original slice, but it creates a new one.
 - Therefore, if we're looking to "modify" the original, the result of `append` needs to replace the original slice.
 
-### For Loop - Range
+## For Loop - Range
 ```go
 for i, card := range cards {
     fmt.Println(i, card)
