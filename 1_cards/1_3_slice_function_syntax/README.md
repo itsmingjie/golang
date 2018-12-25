@@ -26,7 +26,7 @@ func deal(d deck, handSize int) (deck, deck) {
 * `(deck, deck)` - Go has support of **multiple return values**
 * You have free access to functions constructed in the same package
 * Retrieving multiple return data
+    - Compiler will still determine the data type of the variables
 ```go
 hand, remainingCards := deal(cards, 5);
 ```
-    - Compiler will still determine the data type of the variables
