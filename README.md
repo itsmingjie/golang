@@ -3,6 +3,10 @@ Notes and learning progress tracking on my way to my third programming language.
 
 ![](https://img.shields.io/github/last-commit/itsmingjie/golang.svg)
 
+## Directory
+0. [Hello World](0_hello_world)
+1. [Cards](1_cards)
+
 ## Resources
 
 * Main Course: https://www.udemy.com/go-the-complete-developers-guide/
