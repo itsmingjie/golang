@@ -5,7 +5,7 @@ Notes and learning progress tracking on my way to my third programming language.
 
 ## Directory
 0. [Hello World](0_hello_world)
-1. [Cards](1_cards)
+0. [Cards](1_cards)
 
 ## Resources
 
