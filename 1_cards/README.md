@@ -7,6 +7,7 @@
 0. [Go Approach Implementation](1_2_go_approach_implementation/)
 0. [Slice Function Syntax](1_3_slice_function_syntax/)
 0. [File IO](1_4_file_io/)
+0. [Shuffle](1_5_shuffle/)
 
 ## General Notes
 
