@@ -2,4 +2,4 @@
 
 ## Subdirectories
 
-0. [Introduction](2_0_inroduction/)
+0. [Introduction](2_0_introduction/)
