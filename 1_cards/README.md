@@ -9,6 +9,7 @@
 0. [File IO](1_4_file_io/)
 0. [Shuffle](1_5_shuffle/)
 0. [Writing Tests](1_6_writing_tests/)
+0. [Assignment: Even or Odd](1_7_even_or_odd/)
 
 ## General Notes
 
