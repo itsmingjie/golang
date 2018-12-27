@@ -4,8 +4,9 @@ Notes and learning progress tracking on my way to my third programming language.
 ![](https://img.shields.io/github/last-commit/itsmingjie/golang.svg)
 
 ## Directory
-0. [Hello World](0_hello_world)
-0. [Cards](1_cards)
+0. [Hello World](0_hello_world/)
+0. [Cards](1_cards/)
+0. [Structs](2_structs/)
 
 ## Resources
 
