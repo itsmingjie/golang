@@ -1,4 +1,5 @@
 # 2.0 Introduction (Structs)
+12/26/2018
 
 Current problem with the cards project: unable to directly access the suit/value of a specific card, as they are all stored in a single string of information.
 
@@ -37,21 +38,3 @@ Current problem with the cards project: unable to directly access the suit/value
                 ```go
                 var joe person
                 ```
-
-## Manipulating Structs
-* Printing structs
-    - Directly printing
-        ```go
-        fmt.Println(john)
-        // >> {John Doe}
-        // printed out in order of fields
-        ```
-    - Printing out the field names and values of a struct
-        ```go
-        fmt.Printf("%+v", alex)
-        // {firstName:Alex lastName:Anderson}
-* Updating properties
-    - The good 'ol dot structure
-        ```go
-        alex.firstName = "Alex"
-        ```

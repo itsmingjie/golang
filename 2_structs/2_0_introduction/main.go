@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type person struct {
 	firstName string
 	lastName  string
@@ -17,7 +15,5 @@ func main() {
 	// OR: Zero value assignment
 	var joe person
 
-	fmt.Printf("%+v", alex)
-	fmt.Println(john)
-	fmt.Println(joe)
+	// will throw error because variables not used
 }
