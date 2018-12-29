@@ -1,5 +1,5 @@
 # 2.1 Manupulation
-12/27/2018
+12/27/2018 - 12/28/2018
 
 ## Printing structs
 * Directly printing
@@ -45,3 +45,23 @@
         }
         ```
         * **When declaring a multi-line struct, all lines must end with a comma, even if it is the last line in the declaration!**
+
+## Shortcut Declaration
+
+```go
+type contactInfo struct {
+    email string
+    zipCode int
+    contactInfo
+}
+```
+* This declares a field of type `contactInfo` that has the name `contactInfo`.
+
+## Structs with Receiver Functions
+
+* You can create receiver functions with structs
+    ```go
+    func (p person) print() {
+        fmt.Printf("%+v", p)
+    }
+    ```

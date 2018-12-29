@@ -24,7 +24,16 @@ func main() {
 		},
 	}
 
-	fmt.Printf("%+v", john)
+	johnPointer := &john
+	johnPointer.updateName("Jimmy")
+
+	john.print()
+
+}
+
+// pointer is being converted into the value (which is the struct) and updated
+func (pointerToPerson *person) updateName(newFirstName string) {
+	(*pointerToPerson).firstName = newFirstName
 }
 
 func (p person) print() {
